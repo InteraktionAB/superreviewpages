@@ -8,6 +8,8 @@ body, html {
   display: flex;
   justify-content: center;
   background-color: #FADBD8;
+  position: sticky;
+  top: 0;
 }
 
 /* Style for logo */
