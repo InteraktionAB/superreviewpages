@@ -1,14 +1,95 @@
-/* Global style for topnav */
-.topnav {
-	overflow: hidden;
+body, html {
+  padding: 0px;
+  margin: 0px;
 }
 
-/* Search box style */
-.topnav input[type=text] {
-  float: center;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+/* Global style for topnav */
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: #FADBD8;
 }
+
+/* Style for logo */
+.topnav img.logo{
+}
+
+/* Style for secong bar */
+.image-block{
+  display: flex;
+  background-color: #FADBD8;
+  height: 100%;
+}
+
+/* Style for search box */
+.image-block input{
+  font-size: 20px;
+  background: #f1f1f1;
+  border: 1px solid grey;
+}
+
+.image-block div.left{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.image-block h1.heading{
+  -webkit-text-size-adjust: 100%; 
+  color: #0f141e; 
+  -webkit-box-direction: normal; 
+  box-sizing: border-box; 
+  -webkit-font-smoothing: antialiased; 
+  margin: 0; 
+  display: block; 
+  font-family: Archia-Bold,sans-serif; 
+  font-weight: 700; 
+  font-size: 2rem; 
+  line-height: 2.5rem;
+}
+
+.image-block p.para{
+  -webkit-text-size-adjust: 100%;
+  font-family: Archia-Regular,sans-serif;
+  font-weight: 400;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #474c56;
+  font-size: 1rem;
+  line-height: 1.7;
+
+}
+
+.image-block div.image-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-block div.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.image-block img.search-box{
+}
+
+.image-block div.search-box{
+  display: flex;
+  justify-content: center;
+}
+
+.image-block button.submit{
+  background: black;
+  width: 10%;
+  border: 1px solid grey;
+  color: white;
+}
+
